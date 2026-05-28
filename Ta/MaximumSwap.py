@@ -19,8 +19,6 @@
 #        Expected Output: 9281712
 #        Justification: Swapping the first digit (7) with the first 9 found from the left results in the maximum number.
 
-
-
 class MaximumSwap:
     def maximumSwap(self, number):
         nums = list(str(number))
